@@ -1,0 +1,13 @@
+/* Basic reset */
+body, html, #root {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Main container styling */
+  .main {
+    padding: 20px;
+  }
+  

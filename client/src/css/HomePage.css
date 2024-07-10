@@ -1,0 +1,17 @@
+/* Basic container styling */
+.home {
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* Title styling */
+.home__title {
+  font-size: 3rem;
+  color: #333;
+}
+
+/* Description styling */
+.home__description {
+  font-size: 1.2rem;
+  color: #666;
+}

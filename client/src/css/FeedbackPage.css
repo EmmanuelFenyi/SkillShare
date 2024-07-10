@@ -1,0 +1,111 @@
+/* Basic container styling */
+/* .feedback {
+    padding: 20px;
+  } */
+  
+  /* Title styling */
+  /* .feedback__title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  } */
+  
+  /* Form styling */
+  /* .feedback__form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  } */
+  
+  /* Input styling */
+  /* .feedback__input {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  } */
+  
+  /* Button styling */
+  /* .feedback__button {
+    padding: 10px;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  } */
+  
+  /* .feedback__button:hover {
+    background-color: #0056b3;
+  }
+   */
+  /* List styling */
+  /* .feedback__list {
+    list-style: none;
+    padding: 0;
+  }
+   */
+  /* Item styling */
+  /* .feedback__item {
+    padding: 10px;
+    background-color: #fff;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  } */
+  
+
+  /* frontend/src/pages/FeedbackPage.css */
+
+.feedback {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.feedback__title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.feedback__form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.feedback__input {
+  padding: 10px;
+  margin: 10px 0;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.feedback__button {
+  padding: 10px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.feedback__button:hover {
+  background-color: #0056b3;
+}
+
+.feedback__list {
+  list-style: none;
+  padding: 0;
+}
+
+.feedback__item {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
